@@ -111,9 +111,9 @@ manager.on('newOffer', offer => {
 
 				//DISCORD WEBHOOK
 				var discord = require('discord-bot-webhook');
-				discord.hookId = '420184552724627456';
-				discord.hookToken = '_1deVYz6tK9yu8LuY7vx0iOzYfnnI0uIlci5lq9F8lHnRNOwVU1lDOLLUwKJHUg3Cfik';
-				//var Hook = new Webhook("https://discordapp.com/api/webhooks/420184552724627456/_1deVYz6tK9yu8LuY7vx0iOzYfnnI0uIlci5lq9F8lHnRNOwVU1lDOLLUwKJHUg3Cfik");
+				discord.hookId = '';
+				discord.hookToken = '';
+				
 				discord.sendMessage("New Donation from '" + steamid + "'");
 
 			}
