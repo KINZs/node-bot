@@ -1,0 +1,27 @@
+{
+  "name": "nodebot",
+  "version": "1.0.0",
+  "description": "Simple Steam Bot With mysql databse logging. It also posts to discord channel via webhook.",
+  "main": "bot.js",
+  "dependencies": {
+    "discord-translator": "^0.3.8",
+    "discord-bot-webhook": "^1.0.4",
+    "mysql": "^2.15.0",
+    "steam-totp": "^2.0.1",
+    "steam-tradeoffer-manager": "^2.9.3",
+    "steam-user": "^3.25.1",
+    "steamcommunity": "^3.34.1",
+    "webhook-discord": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "nodebot",
+    "steam"
+  ],
+  "author": "Arun Verma",
+  "license": "ISC"
+}
